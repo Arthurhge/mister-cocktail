@@ -1,0 +1,24 @@
+/* -------------------------------------
+ * Base elements style (h1, h2, p, a, ul..)
+ * ============= IMPORTANT =============
+ * Before writing in this file, look if there is not
+ * already a Bootstrap SCSS variable that does the same job
+ * ------------------------------------- */
+ .container {
+  margin-top: 72px;
+  text-align: center;
+ }
+
+ .card {
+  background-color: #FDB92C;
+  width: 200px;
+  height: 200px;
+  padding-top: 25%;
+  margin-top: 10px;
+ }
+
+.button {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

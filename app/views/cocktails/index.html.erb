@@ -1,0 +1,20 @@
+<h1>Arthuro Mojito offers you some nice cocktails</h1>
+
+  <div class="container">
+    <div class="row">
+      <% @cocktails.each do |cocktail| %>
+      <div class="col-xs-6 col-sm-4">
+       <div class="card">
+         <%= link_to cocktail.name, cocktail_path(cocktail) %>
+       </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+
+
+
+<div class="button">
+  <%= link_to 'add cocktail', new_cocktail_path, class: 'btn btn-primary' %>
+</div>
+
